@@ -77,13 +77,13 @@ $(function() {
     });
 
     function fetchAndApplyWords() {
-        $.getJSON( "/animals.json", {
+        $.getJSON( "animals.json", {
             format: "json"
         }).done(function(data) {
             var wordAry = pickwords(data.words, TOTAL_ROWS, TOTAL_COLS);
             setWordArray(wordAry);
         }).fail(function(jqXHR, textStatus, errorThrown) {
-            alert('Error fetching word list:' + textStatus);
+            alert('Error fetching word list:' + textStatus + ':' + errorThrown);
         });
     }
 
