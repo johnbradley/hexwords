@@ -53,7 +53,7 @@ $(function() {
         return "<input " +
                   " type=\"text\" " +
                   " id=\"" + name + "\" " +
-                  " maxlength=\"6\" " + 
+                  " style=\"text-align:center\" size=\"8\" maxlength=\"6\" " + 
                   ">";
     }
 
