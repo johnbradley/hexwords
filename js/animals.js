@@ -1,4 +1,4 @@
-{ "words" : [
+AnimalWords = [
 "Alpaca",
 "Ant",
 "Ape",
@@ -136,5 +136,4 @@
 "Wren",
 "Yak",
 "Zebra"
-]
-}
+];
